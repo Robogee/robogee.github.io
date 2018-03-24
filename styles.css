@@ -3,12 +3,13 @@ img {
 }
 body {
     text-align: center;
-    font-family: "Arial";
+    font-family: "Comic Sans MS";
     background-image: url("https://media.giphy.com/media/WxigN3w7Q9Jfi/giphy.gif");
 }
 #harold{
     width: 70px;
     height: 20px;
+    
 }
 #harold2{
     width: 80px;

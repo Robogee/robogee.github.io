@@ -1,9 +1,11 @@
+var Haroldclicks = 0;
 function harold_img(src, width, height, alt) {
     var harold = document.createElement("img");
     harold.src = src;
     harold.width = width;
     harold.height = height;
     harold.alt = alt;
+    Haroldclicks++;
     
     document.body.appendChild(harold);
 }
@@ -16,3 +18,8 @@ function harold2_img(src,width,height,alt){
     
     document.body.appendChild(harold2);
 }
+function Haroldclicks(){
+    alert(Haroldclicks);
+}
+
+
